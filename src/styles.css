@@ -1,0 +1,72 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+body::before{
+    content: "";
+    background-image:url(img/loveyou.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.2;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index : -1;
+}
+
+
+.container {
+    margin: auto;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding-top: 50px;
+    border-radius: 10px;
+    width: 800px;
+    height: 800px;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    -webkit-text-fill-color: white; /* Cor do texto */
+    -webkit-text-stroke-width: 2px; /* Largura da borda */
+    -webkit-text-stroke-color: black; /* Cor da borda */
+}
+
+#sim{
+    height: 70px;
+    width: 150px;
+    background-color: #ffffff;
+    border:2px solid black;
+    border-radius: 10px;
+    color:black;
+    font-size: 20px;
+}
+#nao{
+    position: absolute;
+    height: 40px;
+    width: 60px;
+    background-color: #fcf9fa;
+    border:2px solid black;
+    border-radius: 10px;
+    color:black;
+    margin-left: 70px;
+}
+
+#desenho{
+    display: block; 
+    margin: 0 auto; 
+    width: 370px;
+    height: 430px;
+    padding-top: 90px;
+    margin-left: 180px;
+}
+
